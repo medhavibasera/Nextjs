@@ -5,10 +5,10 @@ export default function hiii() {
     <div className="container about">
       <div className="cols">
         <div className="rows">
-          <h1>Next.js Handbook 📚</h1>
+          <h1 className="LandingPageHeading">Next.js Handbook 📚</h1>
         </div>
         <div className="rows">
-          <p>
+          <p className="LandingPagetext">
             This website is my handbook 📖 ❤️ , I will be documenting everything
             as I learn Next.js 🎯.
           </p>
