@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap");
 h1 {
+  font-weight: 800;
+  font-size: 100px;
+  letter-spacing: -0.06em;
+  line-height: 1.2;
+  margin: 0 0 30px;
   text-align: center;
-  font-size: 5.8rem;
   font-family: "Inter", sans-serif;
 }
 .cols {
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,17 +21,23 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 p {
-  font-size: 1.7rem;
+  font-size: 1.5em;
   color: grey;
+  font-weight: 500;
   font-family: "Inter", sans-serif;
 }
 
 .cta-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.46em 1em;
   width: 30%;
   height: 50px;
-  font-size: 1.3rem;
+  font-size: 1.5em;
   background-color: #0070f3;
   border: none;
   border-radius: 7px;
@@ -39,4 +48,11 @@ p {
 .cta-btn:hover {
   background-color: #2d8af5;
   transition: all ease-in-out 0.1s;
+}
+
+@media only screen and (max-width: 900px) {
+  h1 {
+    font-weight: 800;
+    font-size: 60px;
+  }
 }
