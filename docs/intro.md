@@ -2,46 +2,41 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# About Next.js
 
-Let's discover **Docusaurus in less than 5 minutes**.
+It is a React framework for production.
 
-## Getting Started
+### How React lacks ?
 
-Get started by **creating a new site**.
+- Not possible to build a full feature rich application ready to be deployed for production.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- React is only responsible for the view layer of the application, and we spend much time of other features like routing, styling , auth etc.
 
-### What you'll need
+### Why Next.js ?
 
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- It's a package that uses React for building user interfaces but it also comes loaded with lot more features that enable you to build full fledged production ready application.
 
-## Generate a new site
+- Loaded with features like routing, styling, auth, bundle optimization.
 
-Generate a new Docusaurus site using the **classic template**.
+- No need to install additional packages.
 
-The classic template will automatically be added to your project after you run the command:
+- It simplifies the process of building a react application for production. **Some of the are listed below :**
+  - File based routing - No need of thiord party routing package.
+  - Pre-rendering - Generates html for each page in advance, instead of having it all done by client side javascript. This results in better performance and _SEO_
+  - API routes - Might come as a surprise but you can actually create APIs using next.js.
+  - Supports CSS modules - Saves you the time of choosing a CSS library.
+  - Authentication - Supports multiple authentication methods.
+  - Dev and Prod build system - Provides well optimized dev and prod build system so you can focus more on the code.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+### Pre-requisites to get started
 
-## Start your site
+- HTML, CSS, JavaScript Fundamentals
+- ES6+ Features
+- React fundamentals
 
-Run the development server:
 
-```bash
-cd my-website
-npm run start
-```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
