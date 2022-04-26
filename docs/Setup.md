@@ -10,17 +10,19 @@ npx create-next-app projectname
 
 After the installation is complete:
 
-Run 
-```bash 
-npm run dev 
+Run
+
+```bash
+npm run dev
 or
-yarn dev 
+yarn dev
 or
-pnpm dev 
+pnpm dev
 ```
+
 to start the development server on http://localhost:3000
 
-You can also choose a port by running 
+You can also choose a port by running
 
 ```bash
 npm run start -- --port 8080
